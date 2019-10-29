@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-no">
-    <meta name="author" content="Brian Brendan Gaturu">
-    <!--Link to external stylesheet-->
-    <link rel="" href="">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
 
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_table }}
-    <button type="submit">Save</button>
-</form>
+{% block content %}
 
-</body>
-</html>
+    {% crispy form %}
+
+
+
+{% endblock content %}

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c53cbdf-02f2-4a20-aade-f0c9d9ede655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/details.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/details/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -226,10 +217,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1615" y="32" width="1032" height="1039" extended-state="0" />
+    <frame x="1592" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14386319" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07534247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,7 +231,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3388521" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/details/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

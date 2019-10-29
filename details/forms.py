@@ -7,7 +7,13 @@ COUNTIES = (
     ('', 'Nairobi'),
     ('', 'Mombasa'),
     ('', 'Kiambu'),
-    
+
+)
+
+GENDER = (
+    ('', 'Choose Gender'),
+    ('', 'Male'),
+    ('', 'Female'),
 )
 
 
@@ -15,9 +21,10 @@ class AddressForm(forms.Form):
     first_name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'First Name'}))
     second_name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Second Name'}))
     username = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Username'}))
+    gender = forms.ChoiceField(choices=GENDER)
     email = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Email'}))
     phone_number = forms.CharField()
-    password = forms.CharField(widget=forms.PasswordInput())
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': '******'}))
     address_1 = forms.CharField(
         label='Address',
         widget=forms.TextInput(attrs={'placeholder': 'Ngara, Nairobi'})
@@ -40,7 +47,12 @@ class AddressForm(forms.Form):
                 Column('second_name', css_class='form-group col-md-6 mb-0'),
                 css_class='form-row'
             ),
-            'username',
+            Row(
+                Column('username', css_class='form-group col-md-6 mb-0'),
+                Column('gender', css_class='form-group col-md-6 mb-0'),
+                css_class='form-row'
+            ),
+
             'password',
             Row(
                 Column('address_1', css_class='form-group col-md-6 mb-0'),
